@@ -6,10 +6,6 @@ public class Brick extends JButton {
     private Numbers number;
     private Positions position;
 
-    Brick(Numbers number) {
-        this.number = number;
-    }
-
     public Positions getPosition() {
         return position;
     }
@@ -18,9 +14,15 @@ public class Brick extends JButton {
         this.position = position;
     }
 
+    Brick(Numbers number) {
+        this.number = number;
+        this.setText(this.number.getName());
+    }
+
     Brick(Numbers number, Positions position) {
         this.number = number;
         this.position = position;
+        this.setText(this.number.getName());
     }
 
     @Override
