@@ -1,6 +1,7 @@
 package com.nackademin.brickgame;
 
 public enum Positions {
+    ZERO(0),
     ONE(1),
     TWO(2),
     THREE(3),
@@ -15,8 +16,7 @@ public enum Positions {
     TWELVE(12),
     THIRTEEN(13),
     FOURTEEN(14),
-    FIFTEEN(15),
-    SIXTEEN(16);
+    FIFTEEN(15);
 
     private int value;
 
