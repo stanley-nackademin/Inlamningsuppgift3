@@ -13,7 +13,5 @@ public class Backend {
             Brick brick = new Brick(Numbers.values()[i], Positions.values()[i]);
             brickContainer.addBrick(brick);
         }
-
-        brickContainer.shuffleBrickPosition();
     }
 }
