@@ -34,8 +34,4 @@ public class BrickContainer {
             i++;
         }
     }
-
-    public void switchBrick(Brick b1, Brick b2) {
-
-    }
 }
